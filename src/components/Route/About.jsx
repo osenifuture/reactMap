@@ -2,6 +2,7 @@ import Employees from "./Employees";
 
 const About = () => {
     return(
+        <div>
         <div className="about-container">
             {
                 Employees.map((Employee) => {
@@ -16,7 +17,6 @@ const About = () => {
                                 <p>POSITION: {Position}</p>
                                 <p>BASIC SALARY: {BasicSalary}</p>
                             </div>
-
                             <img src={ImagrUrl} alt="/" />
 
                         </div>
@@ -24,7 +24,10 @@ const About = () => {
                 })
             }
         </div>
+     
+     </div>
     )
+
 };
 
 export default About;
