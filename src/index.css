@@ -300,7 +300,7 @@ code {
   gap: 5px;
   padding: 10px;
   background-color: white;
-  box-shadow: 2px 2px 10px lightgray;
+  box-shadow: 2px 2px 10px 2px lightgray;
 }
 
 .service-box > img {

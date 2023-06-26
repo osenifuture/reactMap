@@ -4,14 +4,15 @@ import { Fragment } from "react";
 import { useState } from "react";
 
 const Navigation = () => {
-    const  [isMobile, setisMobile] = useState(false);
-    const  handleMenu = () => {
-        setisMobile(!isMobile)
-    }
+  const [isMobile, setisMobile] = useState(false)
+  const handleMenu = () => {
+    setisMobile(!isMobile)
+  }
 
-    const closeMenu = () => {
-        setisMobile(false )
-    }
+  const closeMenu = () => {
+    setisMobile(false)
+  }
+
 
     return(
         <Fragment>
